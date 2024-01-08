@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ala.cs" />
     <Compile Include="Cerchione.cs" />
     <Compile Include="Gomma.cs" />
     <Compile Include="IComponente.cs" />
