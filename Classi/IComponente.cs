@@ -8,6 +8,10 @@ namespace Classi
 {
     public interface IComponente
     {
-
+        double Costo();
+        string Descrizione();
+        void Add(IComponente componente);
+        void Remove(int indice);
+        IComponente getChild(int indice);
     }
 }
